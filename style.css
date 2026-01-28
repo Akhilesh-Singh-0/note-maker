@@ -1,0 +1,49 @@
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.app {
+    max-width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.noteMaker {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea,
+button {
+    font-size: 18px;
+    padding: 8px;
+}
+
+textarea {
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid cornflowerblue;
+}
+
+input {
+    height: 36px;
+    border-radius: 8px;
+    border: 2px solid cornflowerblue;
+}
+
+button {
+    width: 140px;
+    align-self: center;
+    border-radius: 8px;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
+}
+
+#saveNote {
+    margin-top: 30px;
+    padding-left: 0;
+}
